@@ -149,7 +149,7 @@ if prediction!=0:
         with col3:
             st.image("https://www.amc.seoul.kr/healthinfo/health/attach/img/29961/20111216152706_1_29961.jpg")
             st.video("https://www.youtube.com/watch?v=UoJHNkvej_w")
-            st.text("경도 치매입니다. CDR:1")
+            st.text("경도 치매입니다. CDR:1이상")
 
     elif 60000 < prediction <= 120000:
         st.write("### Prediction Result: Medium Price Segment")
