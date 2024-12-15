@@ -137,19 +137,19 @@ if prediction!=0:
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR006wCrY1w4JnFa-Ba3-WvOP65GIFv4W1eZA&s")
-            st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # YouTube 썸네일
-            st.text("정상입니다.")
+            st.image("https://mblogthumb-phinf.pstatic.net/MjAxOTEwMjJfMTMg/MDAxNTcxNzQ3ODA1Nzkz.O36d-zU8Z9gEd6OlisKxBRegUa1kMT3gDXawgImwqQ0g.HzNRDmhkbBZstvQzoHQty5emrtUvKl9iHVnMTVDT0QIg.JPEG.ksan040129/1571747804861.jpg?type=w800")
+            st.video("https://www.youtube.com/watch?v=b7XPVKtYYgI")  # YouTube 썸네일
+            st.text("정상입니다. CDR:0")
 
         with col2:
             st.image("https://img.hankyung.com/photo/202203/AKR20220308061000009_01_i_P4.jpg")
-            st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("경도 인지 장애입니다.")
+            st.video("https://www.youtube.com/watch?v=CkXMgl8IFnc")
+            st.text("경도 인지 장애입니다. CDR:0.5")
 
         with col3:
             st.image("https://www.amc.seoul.kr/healthinfo/health/attach/img/29961/20111216152706_1_29961.jpg")
-            st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("경도 치매입니다.")
+            st.video("https://www.youtube.com/watch?v=UoJHNkvej_w")
+            st.text("경도 치매입니다. CDR:1")
 
     elif 60000 < prediction <= 120000:
         st.write("### Prediction Result: Medium Price Segment")
