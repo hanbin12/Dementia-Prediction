@@ -137,19 +137,19 @@ if prediction!=0:
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            st.image("https://via.placeholder.com/300", caption="Low Segment Image 1")
+            st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR006wCrY1w4JnFa-Ba3-WvOP65GIFv4W1eZA&s")
             st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # YouTube 썸네일
-            st.text("Description for Low Segment 1")
+            st.text("정상입니다.")
 
         with col2:
-            st.image("https://via.placeholder.com/300", caption="Low Segment Image 2")
+            st.image("https://img.hankyung.com/photo/202203/AKR20220308061000009_01_i_P4.jpg")
             st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("Description for Low Segment 2")
+            st.text("경도 인지 장애입니다.")
 
         with col3:
-            st.image("https://via.placeholder.com/300", caption="Low Segment Image 3")
+            st.image("https://www.amc.seoul.kr/healthinfo/health/attach/img/29961/20111216152706_1_29961.jpg")
             st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("Description for Low Segment 3")
+            st.text("경도 치매입니다.")
 
     elif 60000 < prediction <= 120000:
         st.write("### Prediction Result: Medium Price Segment")
